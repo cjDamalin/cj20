@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu - Brewmance Coffee</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f9f3ef, #f1e4d8);
+      color: #3b2c22;
+    }
+
+    .menu-header {
+      text-align: center;
+      font-size: 3em;
+      margin-top: 50px;
+      color: #6b3e2e;
+      font-family: 'Georgia', serif;
+      letter-spacing: 1px;
+    }
+
+    .menu-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+    }
+
+    .menu-section {
+      margin-bottom: 50px;
+    }
+
+    .menu-section h2 {
+      font-size: 2em;
+      color: #54321f;
+      border-bottom: 2px solid #d5bda5;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .menu-item {
+      background-color: #fffdfb;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      border-left: 5px solid #b08c66;
+      transition: transform 0.2s ease;
+      position: relative;
+    }
+
+    .menu-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .menu-item h3 {
+      margin: 0;
+      font-size: 1.3em;
+      color: #40291e;
+    }
+
+    .menu-item p {
+      margin: 5px 0 0;
+      font-size: 0.95em;
+      color: #7a5c48;
+    }
+
+    .menu-item .price {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: #6b3e2e;
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    .back-btn {
+      text-align: center;
+      margin: 60px 0 30px;
+    }
+
+    .back-btn a {
+      background-color: #6b3e2e;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .back-btn a:hover {
+      background-color: #4a2a1d;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+</html>
